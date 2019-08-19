@@ -1,7 +1,7 @@
 <?php
 $API_URL = 'https://api.line.me/v2/bot/message';
-$ACCESS_TOKEN = 'MZo3EBaFykn2d1pjlXB2PngXM8InX+ws+tJjPNPPZZIJqkPoGBWbzLO7WViCPfCpkKL6sLZA1P5SAt76PKRfI5Nd/1w5QpEucb1L1l/GAl4HfvAMEUR5go+M7zhWt6ePPauC09nWU28qeX4Xw9V9vAdB04t89/1O/w1cDnyilFU=';// ใส่ Channel Secret
-$channelSecret = 'b08ac2004ac851c096c0214d6b20111e';
+$ACCESS_TOKEN = '6vSMB2OI6F8dEdew9+PHWoaheciQZ8UazBlrYZXF/hhT+YWS1QZ5REcCIaLfzOvHtuTWGkHtzGQfxeMGrLVXXIkyFf1zsiJxG+4g0juXKxQc35MW9ug81UkebGZ7dZjExAB8KV7w0zBFhvSCqvEn0QdB04t89/1O/w1cDnyilFU=';// ใส่ Channel Secret
+$channelSecret = '959732dd30782b3750d9ddb46dd9d998';
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
 $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
